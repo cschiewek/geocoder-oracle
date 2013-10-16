@@ -1,6 +1,6 @@
 # Geocoder::Oracle
 
-TODO: Write a gem description
+Adds Oracle compatability to the wonderful [geocoder](http://www.rubygeocoder.com) gem.
 
 ## Installation
 
@@ -12,13 +12,13 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
+And then run the generator to create custom functions that Oracle's missing:
 
-    $ gem install geocoder-oracle
+    $ rails generate geocoder:oracle:functions
 
 ## Usage
 
-TODO: Write usage instructions here
+See the [gecoder](http://rubygeocoder.com) documentation.
 
 ## Contributing
 
